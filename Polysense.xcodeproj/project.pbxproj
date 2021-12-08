@@ -8,13 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		5C02AF0A275F3266001808E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02AF09275F3266001808E3 /* AppDelegate.swift */; };
-		5C02AF0C275F3266001808E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02AF0B275F3266001808E3 /* ContentView.swift */; };
+		5C02AF0C275F3266001808E3 /* Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02AF0B275F3266001808E3 /* Root.swift */; };
 		5C02AF0E275F3266001808E3 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 5C02AF0D275F3266001808E3 /* Experience.rcproject */; };
 		5C02AF10275F3268001808E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C02AF0F275F3268001808E3 /* Assets.xcassets */; };
 		5C02AF13275F3268001808E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C02AF12275F3268001808E3 /* Preview Assets.xcassets */; };
 		5C02AF1D275F3268001808E3 /* IATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02AF1C275F3268001808E3 /* IATests.swift */; };
 		5C02AF27275F3268001808E3 /* IAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02AF26275F3268001808E3 /* IAUITests.swift */; };
 		5C02AF29275F3268001808E3 /* IAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02AF28275F3268001808E3 /* IAUITestsLaunchTests.swift */; };
+		5C02AF37275F343E001808E3 /* UserMedia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C02AF35275F343E001808E3 /* UserMedia.xcdatamodeld */; };
+		5C33C1D12760609600266CE0 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C33C1D02760609600266CE0 /* LaunchScreen.swift */; };
+		5CBB2D182760D0DE00FBF46A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB2D172760D0DE00FBF46A /* LoginView.swift */; };
+		5CCA2BA327608EB500BE6017 /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA2BA227608EB500BE6017 /* ARView.swift */; };
+		5CCA2BA527608EC000BE6017 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA2BA427608EC000BE6017 /* CameraView.swift */; };
+		5CCA2BAE2760989E00BE6017 /* ThemeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA2BAD2760989E00BE6017 /* ThemeControl.swift */; };
+		5CCA2BB02760995700BE6017 /* ThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA2BAF2760995700BE6017 /* ThemeProtocol.swift */; };
+		5CCA2BB227609D8700BE6017 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA2BB127609D8700BE6017 /* HomeView.swift */; };
+		5CCA2BB42760A0CA00BE6017 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA2BB32760A0CA00BE6017 /* Settings.swift */; };
+		5CD86737275F9D6B00C86911 /* NavigationSkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD86736275F9D6B00C86911 /* NavigationSkeleton.swift */; };
+		5CD8673D275FA0D800C86911 /* TabBarSkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD8673C275FA0D800C86911 /* TabBarSkeleton.swift */; };
+		5CD86744275FA16400C86911 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD86743275FA16400C86911 /* Themes.swift */; };
+		5CD86753275FB56F00C86911 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD86752275FB56F00C86911 /* UIColor.swift */; };
+		5CE46E7D2760DFCE002927F4 /* TabBarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE46E7C2760DFCE002927F4 /* TabBarProtocols.swift */; };
+		5CE46E7F2760DFEC002927F4 /* TabBarItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE46E7E2760DFEC002927F4 /* TabBarItems.swift */; };
+		5CE46E812760E007002927F4 /* TabBarControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE46E802760E007002927F4 /* TabBarControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,17 +51,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5C02AF06275F3266001808E3 /* IA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C02AF06275F3266001808E3 /* Polysense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polysense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C02AF09275F3266001808E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5C02AF0B275F3266001808E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5C02AF0B275F3266001808E3 /* Root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root.swift; sourceTree = "<group>"; };
 		5C02AF0D275F3266001808E3 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		5C02AF0F275F3268001808E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C02AF12275F3268001808E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5C02AF18275F3268001808E3 /* IATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C02AF18275F3268001808E3 /* PolysenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolysenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C02AF1C275F3268001808E3 /* IATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IATests.swift; sourceTree = "<group>"; };
-		5C02AF22275F3268001808E3 /* IAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C02AF22275F3268001808E3 /* PolysenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolysenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C02AF26275F3268001808E3 /* IAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAUITests.swift; sourceTree = "<group>"; };
 		5C02AF28275F3268001808E3 /* IAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C02AF36275F343E001808E3 /* UserMedia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserMedia.xcdatamodel; sourceTree = "<group>"; };
+		5C33C1D02760609600266CE0 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		5CBB2D172760D0DE00FBF46A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5CCA2BA227608EB500BE6017 /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
+		5CCA2BA427608EC000BE6017 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		5CCA2BAD2760989E00BE6017 /* ThemeControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeControl.swift; sourceTree = "<group>"; };
+		5CCA2BAF2760995700BE6017 /* ThemeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeProtocol.swift; sourceTree = "<group>"; };
+		5CCA2BB127609D8700BE6017 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5CCA2BB32760A0CA00BE6017 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		5CD86736275F9D6B00C86911 /* NavigationSkeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSkeleton.swift; sourceTree = "<group>"; };
+		5CD8673C275FA0D800C86911 /* TabBarSkeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarSkeleton.swift; sourceTree = "<group>"; };
+		5CD86743275FA16400C86911 /* Themes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Themes.swift; sourceTree = "<group>"; };
+		5CD86752275FB56F00C86911 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		5CE46E7C2760DFCE002927F4 /* TabBarProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarProtocols.swift; sourceTree = "<group>"; };
+		5CE46E7E2760DFEC002927F4 /* TabBarItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItems.swift; sourceTree = "<group>"; };
+		5CE46E802760E007002927F4 /* TabBarControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +108,7 @@
 		5C02AEFD275F3265001808E3 = {
 			isa = PBXGroup;
 			children = (
-				5C02AF08275F3266001808E3 /* IA */,
-				5C02AF1B275F3268001808E3 /* IATests */,
-				5C02AF25275F3268001808E3 /* IAUITests */,
+				5C02AF08275F3266001808E3 /* Polysense */,
 				5C02AF07275F3266001808E3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,23 +116,33 @@
 		5C02AF07275F3266001808E3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C02AF06275F3266001808E3 /* IA.app */,
-				5C02AF18275F3268001808E3 /* IATests.xctest */,
-				5C02AF22275F3268001808E3 /* IAUITests.xctest */,
+				5C02AF06275F3266001808E3 /* Polysense.app */,
+				5C02AF18275F3268001808E3 /* PolysenseTests.xctest */,
+				5C02AF22275F3268001808E3 /* PolysenseUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5C02AF08275F3266001808E3 /* IA */ = {
+		5C02AF08275F3266001808E3 /* Polysense */ = {
 			isa = PBXGroup;
 			children = (
 				5C02AF09275F3266001808E3 /* AppDelegate.swift */,
-				5C02AF0B275F3266001808E3 /* ContentView.swift */,
-				5C02AF0D275F3266001808E3 /* Experience.rcproject */,
+				5CD8674E275FA78800C86911 /* Launch */,
+				5CD86746275FA5EC00C86911 /* Root */,
+				5CD86747275FA5F200C86911 /* Controllers */,
+				5CD8674D275FA75400C86911 /* Models */,
+				5CD86741275FA13000C86911 /* Extensions */,
+				5CD8673B275FA09F00C86911 /* Wrappers */,
+				5CD8674C275FA72E00C86911 /* Algorithms */,
+				5CD8674A275FA61700C86911 /* AR */,
+				5CD86749275FA5FE00C86911 /* ML */,
+				5CD8674B275FA70700C86911 /* Data */,
+				5CD86751275FAB4700C86911 /* Externals */,
 				5C02AF0F275F3268001808E3 /* Assets.xcassets */,
 				5C02AF11275F3268001808E3 /* Preview Content */,
+				5C33C1CF2760602F00266CE0 /* Tests */,
 			);
-			path = IA;
+			path = Polysense;
 			sourceTree = "<group>";
 		};
 		5C02AF11275F3268001808E3 /* Preview Content */ = {
@@ -113,29 +153,277 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		5C02AF1B275F3268001808E3 /* IATests */ = {
+		5C02AF1B275F3268001808E3 /* PolysenseTests */ = {
 			isa = PBXGroup;
 			children = (
 				5C02AF1C275F3268001808E3 /* IATests.swift */,
 			);
-			path = IATests;
+			path = PolysenseTests;
 			sourceTree = "<group>";
 		};
-		5C02AF25275F3268001808E3 /* IAUITests */ = {
+		5C02AF25275F3268001808E3 /* PolysenseUITests */ = {
 			isa = PBXGroup;
 			children = (
 				5C02AF26275F3268001808E3 /* IAUITests.swift */,
 				5C02AF28275F3268001808E3 /* IAUITestsLaunchTests.swift */,
 			);
-			path = IAUITests;
+			path = PolysenseUITests;
+			sourceTree = "<group>";
+		};
+		5C33C1CF2760602F00266CE0 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5C02AF25275F3268001808E3 /* PolysenseUITests */,
+				5C02AF1B275F3268001808E3 /* PolysenseTests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		5CBB2D1A2760D22300FBF46A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5CBB2D172760D0DE00FBF46A /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		5CCA2BA6276092F300BE6017 /* ModelPreviews */ = {
+			isa = PBXGroup;
+			children = (
+				5CCA2BA227608EB500BE6017 /* ARView.swift */,
+			);
+			path = ModelPreviews;
+			sourceTree = "<group>";
+		};
+		5CCA2BA7276092FF00BE6017 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				5CCA2BA427608EC000BE6017 /* CameraView.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		5CCA2BA82760930800BE6017 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5CCA2BB127609D8700BE6017 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5CCA2BA92760930E00BE6017 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				5CCA2BAB2760932100BE6017 /* Cloud */,
+				5CCA2BAA2760931D00BE6017 /* Local */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		5CCA2BAA2760931D00BE6017 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		5CCA2BAB2760932100BE6017 /* Cloud */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cloud;
+			sourceTree = "<group>";
+		};
+		5CCA2BAC2760987200BE6017 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				5CCA2BAF2760995700BE6017 /* ThemeProtocol.swift */,
+				5CD86743275FA16400C86911 /* Themes.swift */,
+				5CCA2BAD2760989E00BE6017 /* ThemeControl.swift */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+		5CD86738275FA07400C86911 /* TabBarWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				5CE46E7C2760DFCE002927F4 /* TabBarProtocols.swift */,
+				5CE46E7E2760DFEC002927F4 /* TabBarItems.swift */,
+				5CE46E802760E007002927F4 /* TabBarControl.swift */,
+				5CD8673C275FA0D800C86911 /* TabBarSkeleton.swift */,
+			);
+			path = TabBarWrapper;
+			sourceTree = "<group>";
+		};
+		5CD8673A275FA08500C86911 /* NavigationWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				5CD86736275F9D6B00C86911 /* NavigationSkeleton.swift */,
+			);
+			path = NavigationWrapper;
+			sourceTree = "<group>";
+		};
+		5CD8673B275FA09F00C86911 /* Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				5CD8673A275FA08500C86911 /* NavigationWrapper */,
+				5CD86738275FA07400C86911 /* TabBarWrapper */,
+			);
+			path = Wrappers;
+			sourceTree = "<group>";
+		};
+		5CD8673E275FA0FC00C86911 /* DataPersistence */ = {
+			isa = PBXGroup;
+			children = (
+				5CD86740275FA12000C86911 /* Firebase */,
+				5CD8673F275FA11100C86911 /* CoreData */,
+			);
+			path = DataPersistence;
+			sourceTree = "<group>";
+		};
+		5CD8673F275FA11100C86911 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5C02AF35275F343E001808E3 /* UserMedia.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		5CD86740275FA12000C86911 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		5CD86741275FA13000C86911 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5CD86752275FB56F00C86911 /* UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5CD86742275FA15500C86911 /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				5CCA2BB32760A0CA00BE6017 /* Settings.swift */,
+				5CCA2BAC2760987200BE6017 /* Themes */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		5CD86745275FA1B700C86911 /* DataSharing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataSharing;
+			sourceTree = "<group>";
+		};
+		5CD86746275FA5EC00C86911 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				5C02AF0B275F3266001808E3 /* Root.swift */,
+				5CD86748275FA5F700C86911 /* Views */,
+				5CE46E7B2760DAFB002927F4 /* ViewComponents */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		5CD86747275FA5F200C86911 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5CD86748275FA5F700C86911 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5CBB2D1A2760D22300FBF46A /* Login */,
+				5CCA2BA82760930800BE6017 /* Home */,
+				5CCA2BA92760930E00BE6017 /* Search */,
+				5CCA2BA7276092FF00BE6017 /* Camera */,
+				5CCA2BA6276092F300BE6017 /* ModelPreviews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5CD86749275FA5FE00C86911 /* ML */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ML;
+			sourceTree = "<group>";
+		};
+		5CD8674A275FA61700C86911 /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				5C02AF0D275F3266001808E3 /* Experience.rcproject */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+		5CD8674B275FA70700C86911 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5CD8673E275FA0FC00C86911 /* DataPersistence */,
+				5CD86745275FA1B700C86911 /* DataSharing */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5CD8674C275FA72E00C86911 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		5CD8674D275FA75400C86911 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5CD86750275FAAC600C86911 /* ViewModels */,
+				5CD86742275FA15500C86911 /* Defaults */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5CD8674E275FA78800C86911 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				5C33C1D02760609600266CE0 /* LaunchScreen.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		5CD86750275FAAC600C86911 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5CD86751275FAB4700C86911 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		5CE46E7B2760DAFB002927F4 /* ViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5C02AF05275F3266001808E3 /* IA */ = {
+		5C02AF05275F3266001808E3 /* Polysense */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C02AF2C275F3268001808E3 /* Build configuration list for PBXNativeTarget "IA" */;
+			buildConfigurationList = 5C02AF2C275F3268001808E3 /* Build configuration list for PBXNativeTarget "Polysense" */;
 			buildPhases = (
 				5C02AF02275F3266001808E3 /* Sources */,
 				5C02AF03275F3266001808E3 /* Frameworks */,
@@ -145,14 +433,14 @@
 			);
 			dependencies = (
 			);
-			name = IA;
+			name = Polysense;
 			productName = IA;
-			productReference = 5C02AF06275F3266001808E3 /* IA.app */;
+			productReference = 5C02AF06275F3266001808E3 /* Polysense.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5C02AF17275F3268001808E3 /* IATests */ = {
+		5C02AF17275F3268001808E3 /* PolysenseTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C02AF2F275F3268001808E3 /* Build configuration list for PBXNativeTarget "IATests" */;
+			buildConfigurationList = 5C02AF2F275F3268001808E3 /* Build configuration list for PBXNativeTarget "PolysenseTests" */;
 			buildPhases = (
 				5C02AF14275F3268001808E3 /* Sources */,
 				5C02AF15275F3268001808E3 /* Frameworks */,
@@ -163,14 +451,14 @@
 			dependencies = (
 				5C02AF1A275F3268001808E3 /* PBXTargetDependency */,
 			);
-			name = IATests;
+			name = PolysenseTests;
 			productName = IATests;
-			productReference = 5C02AF18275F3268001808E3 /* IATests.xctest */;
+			productReference = 5C02AF18275F3268001808E3 /* PolysenseTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5C02AF21275F3268001808E3 /* IAUITests */ = {
+		5C02AF21275F3268001808E3 /* PolysenseUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C02AF32275F3268001808E3 /* Build configuration list for PBXNativeTarget "IAUITests" */;
+			buildConfigurationList = 5C02AF32275F3268001808E3 /* Build configuration list for PBXNativeTarget "PolysenseUITests" */;
 			buildPhases = (
 				5C02AF1E275F3268001808E3 /* Sources */,
 				5C02AF1F275F3268001808E3 /* Frameworks */,
@@ -181,9 +469,9 @@
 			dependencies = (
 				5C02AF24275F3268001808E3 /* PBXTargetDependency */,
 			);
-			name = IAUITests;
+			name = PolysenseUITests;
 			productName = IAUITests;
-			productReference = 5C02AF22275F3268001808E3 /* IAUITests.xctest */;
+			productReference = 5C02AF22275F3268001808E3 /* PolysenseUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -209,7 +497,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5C02AF01275F3265001808E3 /* Build configuration list for PBXProject "IA" */;
+			buildConfigurationList = 5C02AF01275F3265001808E3 /* Build configuration list for PBXProject "Polysense" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,9 +510,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5C02AF05275F3266001808E3 /* IA */,
-				5C02AF17275F3268001808E3 /* IATests */,
-				5C02AF21275F3268001808E3 /* IAUITests */,
+				5C02AF05275F3266001808E3 /* Polysense */,
+				5C02AF17275F3268001808E3 /* PolysenseTests */,
+				5C02AF21275F3268001808E3 /* PolysenseUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,9 +548,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C02AF0C275F3266001808E3 /* ContentView.swift in Sources */,
+				5CD86744275FA16400C86911 /* Themes.swift in Sources */,
+				5C02AF0C275F3266001808E3 /* Root.swift in Sources */,
+				5C33C1D12760609600266CE0 /* LaunchScreen.swift in Sources */,
+				5C02AF37275F343E001808E3 /* UserMedia.xcdatamodeld in Sources */,
+				5CCA2BB227609D8700BE6017 /* HomeView.swift in Sources */,
+				5CCA2BAE2760989E00BE6017 /* ThemeControl.swift in Sources */,
+				5CD86737275F9D6B00C86911 /* NavigationSkeleton.swift in Sources */,
+				5CCA2BA327608EB500BE6017 /* ARView.swift in Sources */,
+				5CE46E7F2760DFEC002927F4 /* TabBarItems.swift in Sources */,
 				5C02AF0A275F3266001808E3 /* AppDelegate.swift in Sources */,
+				5CCA2BB42760A0CA00BE6017 /* Settings.swift in Sources */,
+				5CCA2BA527608EC000BE6017 /* CameraView.swift in Sources */,
+				5CD86753275FB56F00C86911 /* UIColor.swift in Sources */,
+				5CD8673D275FA0D800C86911 /* TabBarSkeleton.swift in Sources */,
+				5CE46E7D2760DFCE002927F4 /* TabBarProtocols.swift in Sources */,
 				5C02AF0E275F3266001808E3 /* Experience.rcproject in Sources */,
+				5CBB2D182760D0DE00FBF46A /* LoginView.swift in Sources */,
+				5CE46E812760E007002927F4 /* TabBarControl.swift in Sources */,
+				5CCA2BB02760995700BE6017 /* ThemeProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,12 +592,12 @@
 /* Begin PBXTargetDependency section */
 		5C02AF1A275F3268001808E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5C02AF05275F3266001808E3 /* IA */;
+			target = 5C02AF05275F3266001808E3 /* Polysense */;
 			targetProxy = 5C02AF19275F3268001808E3 /* PBXContainerItemProxy */;
 		};
 		5C02AF24275F3268001808E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5C02AF05275F3266001808E3 /* IA */;
+			target = 5C02AF05275F3266001808E3 /* Polysense */;
 			targetProxy = 5C02AF23275F3268001808E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -438,6 +742,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.vaccineProject.IA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -469,6 +774,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.vaccineProject.IA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -493,7 +799,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IA.app/IA";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Polysense.app/Polysense";
 			};
 			name = Debug;
 		};
@@ -513,7 +819,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IA.app/IA";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Polysense.app/Polysense";
 			};
 			name = Release;
 		};
@@ -556,7 +862,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5C02AF01275F3265001808E3 /* Build configuration list for PBXProject "IA" */ = {
+		5C02AF01275F3265001808E3 /* Build configuration list for PBXProject "Polysense" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C02AF2A275F3268001808E3 /* Debug */,
@@ -565,7 +871,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C02AF2C275F3268001808E3 /* Build configuration list for PBXNativeTarget "IA" */ = {
+		5C02AF2C275F3268001808E3 /* Build configuration list for PBXNativeTarget "Polysense" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C02AF2D275F3268001808E3 /* Debug */,
@@ -574,7 +880,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C02AF2F275F3268001808E3 /* Build configuration list for PBXNativeTarget "IATests" */ = {
+		5C02AF2F275F3268001808E3 /* Build configuration list for PBXNativeTarget "PolysenseTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C02AF30275F3268001808E3 /* Debug */,
@@ -583,7 +889,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C02AF32275F3268001808E3 /* Build configuration list for PBXNativeTarget "IAUITests" */ = {
+		5C02AF32275F3268001808E3 /* Build configuration list for PBXNativeTarget "PolysenseUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C02AF33275F3268001808E3 /* Debug */,
@@ -593,6 +899,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5C02AF35275F343E001808E3 /* UserMedia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5C02AF36275F343E001808E3 /* UserMedia.xcdatamodel */,
+			);
+			currentVersion = 5C02AF36275F343E001808E3 /* UserMedia.xcdatamodel */;
+			path = UserMedia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5C02AEFE275F3265001808E3 /* Project object */;
 }
