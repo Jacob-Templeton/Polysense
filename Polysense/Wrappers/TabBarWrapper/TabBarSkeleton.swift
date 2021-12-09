@@ -9,8 +9,8 @@ import SwiftUI
 
 struct TabBarSkeleton: View
 {
-    @EnvironmentObject var TabBar: TabBarControl = TabBarControl()
-    
+    @EnvironmentObject var TabBar: TabBarControl
+    @EnvironmentObject var Theme: ThemeControl
     
     init()
     {
@@ -19,9 +19,9 @@ struct TabBarSkeleton: View
     
     var body: some View
     {
-        TabView(selection: $selection)
-        {
-            
+        ForEach(0..<TabBarItems.tabBarItems.count, id: \.self)
+        { tabBarItem in
+            TabBarButton(item: $TabBar.selectedTabBarItem, theme: $Theme.selectedTheme)
         }
     }
 }

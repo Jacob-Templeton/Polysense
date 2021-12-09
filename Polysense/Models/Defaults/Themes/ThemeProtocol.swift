@@ -23,6 +23,10 @@ protocol aTheme
     var secondaryText:          UIColor     { get }
     var tertiaryText:           UIColor     { get }
     
+    var primaryIcon:            UIColor     { get }
+    var secondaryIcon:          UIColor     { get }
+    var tertiaryIcon:           UIColor     { get }
+    
     var lightPositive:          UIColor     { get }
     var regularPositive:        UIColor     { get }
     var darkPositive:           UIColor     { get }

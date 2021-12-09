@@ -23,6 +23,10 @@ struct ClassicLight: aTheme
     let secondaryText:          UIColor = UIColor(rgb: 0x2C2C2C) // Very dark gray
     let tertiaryText:           UIColor = UIColor(rgb: 0x4D4D4D) // Dark gray
     
+    var primaryIcon:            UIColor = UIColor(rgb: 0x66F338) // Light green
+    var secondaryIcon:          UIColor = UIColor(rgb: 0xFFFF59) // Light yellow
+    var tertiaryIcon:           UIColor = UIColor(rgb: 0xFB4F3C) // Light red
+    
     var lightPositive:          UIColor = UIColor(rgb: 0x66F338) // Light green
     var regularPositive:        UIColor = UIColor(rgb: 0x4BB527) // Regular green
     var darkPositive:           UIColor = UIColor(rgb: 0x3A8C1F) // Dark green
@@ -55,6 +59,10 @@ struct ClassicDark: aTheme
     let primaryText:            UIColor = UIColor(rgb: 0x000000) // Pure white
     let secondaryText:          UIColor = UIColor(rgb: 0xB4B4B4) // light gray
     let tertiaryText:           UIColor = UIColor(rgb: 0xFF9218) // Light orange
+    
+    var primaryIcon:            UIColor = UIColor(rgb: 0xFB4F3C) // Light red
+    var secondaryIcon:          UIColor = UIColor(rgb: 0xFF9218) // Light orange
+    var tertiaryIcon:           UIColor = UIColor(rgb: 0xFFFF59) // Light yellow
     
     var lightPositive:          UIColor = UIColor(rgb: 0x66F338) // Light green
     var regularPositive:        UIColor = UIColor(rgb: 0x4BB527) // Regular green

@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3089E6CA4391DA4A382288C3 /* Pods_Polysense_PolysenseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D65FD72224C60C1DBD372F2 /* Pods_Polysense_PolysenseUITests.framework */; };
+		4A24C92FF1222C7F8C48CEE7 /* Pods_PolysenseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB9B9AB43857D2296B8B76B /* Pods_PolysenseTests.framework */; };
 		5C02AF0A275F3266001808E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02AF09275F3266001808E3 /* AppDelegate.swift */; };
 		5C02AF0C275F3266001808E3 /* Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02AF0B275F3266001808E3 /* Root.swift */; };
 		5C02AF0E275F3266001808E3 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 5C02AF0D275F3266001808E3 /* Experience.rcproject */; };
 		5C02AF10275F3268001808E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C02AF0F275F3268001808E3 /* Assets.xcassets */; };
 		5C02AF13275F3268001808E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C02AF12275F3268001808E3 /* Preview Assets.xcassets */; };
-		5C02AF1D275F3268001808E3 /* IATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02AF1C275F3268001808E3 /* IATests.swift */; };
-		5C02AF27275F3268001808E3 /* IAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02AF26275F3268001808E3 /* IAUITests.swift */; };
-		5C02AF29275F3268001808E3 /* IAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02AF28275F3268001808E3 /* IAUITestsLaunchTests.swift */; };
+		5C02AF1D275F3268001808E3 /* PolysenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02AF1C275F3268001808E3 /* PolysenseTests.swift */; };
+		5C02AF27275F3268001808E3 /* PolysenseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02AF26275F3268001808E3 /* PolysenseUITests.swift */; };
+		5C02AF29275F3268001808E3 /* PolysenseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02AF28275F3268001808E3 /* PolysenseUITestsLaunchTests.swift */; };
 		5C02AF37275F343E001808E3 /* UserMedia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C02AF35275F343E001808E3 /* UserMedia.xcdatamodeld */; };
 		5C33C1D12760609600266CE0 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C33C1D02760609600266CE0 /* LaunchScreen.swift */; };
 		5CBB2D182760D0DE00FBF46A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB2D172760D0DE00FBF46A /* LoginView.swift */; };
@@ -31,6 +33,11 @@
 		5CE46E7D2760DFCE002927F4 /* TabBarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE46E7C2760DFCE002927F4 /* TabBarProtocols.swift */; };
 		5CE46E7F2760DFEC002927F4 /* TabBarItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE46E7E2760DFEC002927F4 /* TabBarItems.swift */; };
 		5CE46E812760E007002927F4 /* TabBarControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE46E802760E007002927F4 /* TabBarControl.swift */; };
+		5CE46E8327611113002927F4 /* NavigationProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE46E8227611113002927F4 /* NavigationProtocols.swift */; };
+		5CE46E8527611123002927F4 /* NavigationControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE46E8427611123002927F4 /* NavigationControl.swift */; };
+		5CE46E8727611168002927F4 /* NavigationItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE46E8627611168002927F4 /* NavigationItems.swift */; };
+		5CE46E8927611B2C002927F4 /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE46E8827611B2C002927F4 /* TabBarButton.swift */; };
+		A74AC7688C7BE6AD5E315EFB /* Pods_Polysense.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C515675536AE008856F62FFD /* Pods_Polysense.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0922E5B463CA8CE6CB5137B1 /* Pods-PolysenseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PolysenseTests.debug.xcconfig"; path = "Target Support Files/Pods-PolysenseTests/Pods-PolysenseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		17F775B572FBBB07C9200F52 /* Pods-Polysense.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polysense.debug.xcconfig"; path = "Target Support Files/Pods-Polysense/Pods-Polysense.debug.xcconfig"; sourceTree = "<group>"; };
+		22B1DCAED3E9DDC8EEAFCCD0 /* Pods-Polysense-PolysenseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polysense-PolysenseUITests.debug.xcconfig"; path = "Target Support Files/Pods-Polysense-PolysenseUITests/Pods-Polysense-PolysenseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BB9B9AB43857D2296B8B76B /* Pods_PolysenseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PolysenseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C0F3B87AE9011B1267EB4C0 /* Pods-PolysenseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PolysenseTests.release.xcconfig"; path = "Target Support Files/Pods-PolysenseTests/Pods-PolysenseTests.release.xcconfig"; sourceTree = "<group>"; };
 		5C02AF06275F3266001808E3 /* Polysense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polysense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C02AF09275F3266001808E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C02AF0B275F3266001808E3 /* Root.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Root.swift; sourceTree = "<group>"; };
@@ -58,10 +70,10 @@
 		5C02AF0F275F3268001808E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C02AF12275F3268001808E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C02AF18275F3268001808E3 /* PolysenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolysenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C02AF1C275F3268001808E3 /* IATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IATests.swift; sourceTree = "<group>"; };
+		5C02AF1C275F3268001808E3 /* PolysenseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolysenseTests.swift; sourceTree = "<group>"; };
 		5C02AF22275F3268001808E3 /* PolysenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolysenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C02AF26275F3268001808E3 /* IAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAUITests.swift; sourceTree = "<group>"; };
-		5C02AF28275F3268001808E3 /* IAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C02AF26275F3268001808E3 /* PolysenseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolysenseUITests.swift; sourceTree = "<group>"; };
+		5C02AF28275F3268001808E3 /* PolysenseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolysenseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5C02AF36275F343E001808E3 /* UserMedia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserMedia.xcdatamodel; sourceTree = "<group>"; };
 		5C33C1D02760609600266CE0 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
 		5CBB2D172760D0DE00FBF46A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -78,6 +90,14 @@
 		5CE46E7C2760DFCE002927F4 /* TabBarProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarProtocols.swift; sourceTree = "<group>"; };
 		5CE46E7E2760DFEC002927F4 /* TabBarItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItems.swift; sourceTree = "<group>"; };
 		5CE46E802760E007002927F4 /* TabBarControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControl.swift; sourceTree = "<group>"; };
+		5CE46E8227611113002927F4 /* NavigationProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationProtocols.swift; sourceTree = "<group>"; };
+		5CE46E8427611123002927F4 /* NavigationControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControl.swift; sourceTree = "<group>"; };
+		5CE46E8627611168002927F4 /* NavigationItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationItems.swift; sourceTree = "<group>"; };
+		5CE46E8827611B2C002927F4 /* TabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
+		66B49A17C62B60B420696A66 /* Pods-Polysense.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polysense.release.xcconfig"; path = "Target Support Files/Pods-Polysense/Pods-Polysense.release.xcconfig"; sourceTree = "<group>"; };
+		8D65FD72224C60C1DBD372F2 /* Pods_Polysense_PolysenseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Polysense_PolysenseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C515675536AE008856F62FFD /* Pods_Polysense.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Polysense.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CA4426DC9A7C9000148CAE /* Pods-Polysense-PolysenseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polysense-PolysenseUITests.release.xcconfig"; path = "Target Support Files/Pods-Polysense-PolysenseUITests/Pods-Polysense-PolysenseUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A74AC7688C7BE6AD5E315EFB /* Pods_Polysense.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A24C92FF1222C7F8C48CEE7 /* Pods_PolysenseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,17 +121,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3089E6CA4391DA4A382288C3 /* Pods_Polysense_PolysenseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3351CCD55CB83D5129EE6856 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C515675536AE008856F62FFD /* Pods_Polysense.framework */,
+				8D65FD72224C60C1DBD372F2 /* Pods_Polysense_PolysenseUITests.framework */,
+				3BB9B9AB43857D2296B8B76B /* Pods_PolysenseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5C02AEFD275F3265001808E3 = {
 			isa = PBXGroup;
 			children = (
 				5C02AF08275F3266001808E3 /* Polysense */,
 				5C02AF07275F3266001808E3 /* Products */,
+				793172E2099A9BF10A0D2D55 /* Pods */,
+				3351CCD55CB83D5129EE6856 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,7 +191,7 @@
 		5C02AF1B275F3268001808E3 /* PolysenseTests */ = {
 			isa = PBXGroup;
 			children = (
-				5C02AF1C275F3268001808E3 /* IATests.swift */,
+				5C02AF1C275F3268001808E3 /* PolysenseTests.swift */,
 			);
 			path = PolysenseTests;
 			sourceTree = "<group>";
@@ -164,8 +199,8 @@
 		5C02AF25275F3268001808E3 /* PolysenseUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5C02AF26275F3268001808E3 /* IAUITests.swift */,
-				5C02AF28275F3268001808E3 /* IAUITestsLaunchTests.swift */,
+				5C02AF26275F3268001808E3 /* PolysenseUITests.swift */,
+				5C02AF28275F3268001808E3 /* PolysenseUITestsLaunchTests.swift */,
 			);
 			path = PolysenseUITests;
 			sourceTree = "<group>";
@@ -250,6 +285,7 @@
 				5CE46E7C2760DFCE002927F4 /* TabBarProtocols.swift */,
 				5CE46E7E2760DFEC002927F4 /* TabBarItems.swift */,
 				5CE46E802760E007002927F4 /* TabBarControl.swift */,
+				5CE46E8827611B2C002927F4 /* TabBarButton.swift */,
 				5CD8673C275FA0D800C86911 /* TabBarSkeleton.swift */,
 			);
 			path = TabBarWrapper;
@@ -258,6 +294,9 @@
 		5CD8673A275FA08500C86911 /* NavigationWrapper */ = {
 			isa = PBXGroup;
 			children = (
+				5CE46E8227611113002927F4 /* NavigationProtocols.swift */,
+				5CE46E8627611168002927F4 /* NavigationItems.swift */,
+				5CE46E8427611123002927F4 /* NavigationControl.swift */,
 				5CD86736275F9D6B00C86911 /* NavigationSkeleton.swift */,
 			);
 			path = NavigationWrapper;
@@ -418,6 +457,19 @@
 			path = ViewComponents;
 			sourceTree = "<group>";
 		};
+		793172E2099A9BF10A0D2D55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17F775B572FBBB07C9200F52 /* Pods-Polysense.debug.xcconfig */,
+				66B49A17C62B60B420696A66 /* Pods-Polysense.release.xcconfig */,
+				22B1DCAED3E9DDC8EEAFCCD0 /* Pods-Polysense-PolysenseUITests.debug.xcconfig */,
+				F5CA4426DC9A7C9000148CAE /* Pods-Polysense-PolysenseUITests.release.xcconfig */,
+				0922E5B463CA8CE6CB5137B1 /* Pods-PolysenseTests.debug.xcconfig */,
+				4C0F3B87AE9011B1267EB4C0 /* Pods-PolysenseTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -425,9 +477,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C02AF2C275F3268001808E3 /* Build configuration list for PBXNativeTarget "Polysense" */;
 			buildPhases = (
+				4947FAE22838C4FD8B32B005 /* [CP] Check Pods Manifest.lock */,
 				5C02AF02275F3266001808E3 /* Sources */,
 				5C02AF03275F3266001808E3 /* Frameworks */,
 				5C02AF04275F3266001808E3 /* Resources */,
+				47083E748F96A524FC102AEE /* [CP] Embed Pods Frameworks */,
+				5C7E25902761BD7300781CA3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -442,6 +497,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C02AF2F275F3268001808E3 /* Build configuration list for PBXNativeTarget "PolysenseTests" */;
 			buildPhases = (
+				765F2A83774F5C9E1973FBD2 /* [CP] Check Pods Manifest.lock */,
 				5C02AF14275F3268001808E3 /* Sources */,
 				5C02AF15275F3268001808E3 /* Frameworks */,
 				5C02AF16275F3268001808E3 /* Resources */,
@@ -460,9 +516,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C02AF32275F3268001808E3 /* Build configuration list for PBXNativeTarget "PolysenseUITests" */;
 			buildPhases = (
+				BC72CD4E24309B96D815025F /* [CP] Check Pods Manifest.lock */,
 				5C02AF1E275F3268001808E3 /* Sources */,
 				5C02AF1F275F3268001808E3 /* Frameworks */,
 				5C02AF20275F3268001808E3 /* Resources */,
+				3131830E545E2E9A4732AD77 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -543,12 +601,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3131830E545E2E9A4732AD77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Polysense-PolysenseUITests/Pods-Polysense-PolysenseUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Polysense-PolysenseUITests/Pods-Polysense-PolysenseUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Polysense-PolysenseUITests/Pods-Polysense-PolysenseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47083E748F96A524FC102AEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Polysense/Pods-Polysense-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Polysense/Pods-Polysense-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Polysense/Pods-Polysense-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4947FAE22838C4FD8B32B005 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Polysense-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C7E25902761BD7300781CA3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which sentry-cli >/dev/null; then\nexport SENTRY_ORG=jacob-kd\nexport SENTRY_PROJECT=polysense\nexport SENTRY_AUTH_TOKEN=baace1372ab849a382aadc2de533c836dcd0bff975e84b6288df4e2be286af66\nERROR=$(sentry-cli upload-dif \"$DWARF_DSYM_FOLDER_PATH\" 2>&1 >/dev/null)\nif [ ! $? -eq 0 ]; then\necho \"warning: sentry-cli - $ERROR\"\nfi\nelse\necho \"warning: sentry-cli not installed, download from https://github.com/getsentry/sentry-cli/releases\"\nfi\n";
+		};
+		765F2A83774F5C9E1973FBD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PolysenseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC72CD4E24309B96D815025F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Polysense-PolysenseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5C02AF02275F3266001808E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5CD86744275FA16400C86911 /* Themes.swift in Sources */,
+				5CE46E8327611113002927F4 /* NavigationProtocols.swift in Sources */,
+				5CE46E8927611B2C002927F4 /* TabBarButton.swift in Sources */,
 				5C02AF0C275F3266001808E3 /* Root.swift in Sources */,
 				5C33C1D12760609600266CE0 /* LaunchScreen.swift in Sources */,
 				5C02AF37275F343E001808E3 /* UserMedia.xcdatamodeld in Sources */,
@@ -564,8 +745,10 @@
 				5CD8673D275FA0D800C86911 /* TabBarSkeleton.swift in Sources */,
 				5CE46E7D2760DFCE002927F4 /* TabBarProtocols.swift in Sources */,
 				5C02AF0E275F3266001808E3 /* Experience.rcproject in Sources */,
+				5CE46E8527611123002927F4 /* NavigationControl.swift in Sources */,
 				5CBB2D182760D0DE00FBF46A /* LoginView.swift in Sources */,
 				5CE46E812760E007002927F4 /* TabBarControl.swift in Sources */,
+				5CE46E8727611168002927F4 /* NavigationItems.swift in Sources */,
 				5CCA2BB02760995700BE6017 /* ThemeProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -574,7 +757,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C02AF1D275F3268001808E3 /* IATests.swift in Sources */,
+				5C02AF1D275F3268001808E3 /* PolysenseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,8 +765,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C02AF29275F3268001808E3 /* IAUITestsLaunchTests.swift in Sources */,
-				5C02AF27275F3268001808E3 /* IAUITests.swift in Sources */,
+				5C02AF29275F3268001808E3 /* PolysenseUITestsLaunchTests.swift in Sources */,
+				5C02AF27275F3268001808E3 /* PolysenseUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -637,7 +820,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -721,12 +904,14 @@
 		};
 		5C02AF2D275F3268001808E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17F775B572FBBB07C9200F52 /* Pods-Polysense.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"IA/Preview Content\"";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"Polysense/Preview Content\"";
 				DEVELOPMENT_TEAM = TB673Q64S9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -753,12 +938,13 @@
 		};
 		5C02AF2E275F3268001808E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66B49A17C62B60B420696A66 /* Pods-Polysense.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"IA/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Polysense/Preview Content\"";
 				DEVELOPMENT_TEAM = TB673Q64S9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -785,6 +971,7 @@
 		};
 		5C02AF30275F3268001808E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0922E5B463CA8CE6CB5137B1 /* Pods-PolysenseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -805,6 +992,7 @@
 		};
 		5C02AF31275F3268001808E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C0F3B87AE9011B1267EB4C0 /* Pods-PolysenseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -825,6 +1013,7 @@
 		};
 		5C02AF33275F3268001808E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22B1DCAED3E9DDC8EEAFCCD0 /* Pods-Polysense-PolysenseUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -843,6 +1032,7 @@
 		};
 		5C02AF34275F3268001808E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5CA4426DC9A7C9000148CAE /* Pods-Polysense-PolysenseUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

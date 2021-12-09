@@ -12,7 +12,13 @@ struct HomeBarItem: TabBarItem
     let name:                   String = "home"
     
     let icon:                   String = "house"
-    var title:                  String = "Home"
+    let iconWeight:             Font   = Font.title.weight(.semibold)
+    
+    let title:                  String = "Home"
+    let textWeight:             Font   = Font.title.weight(.semibold)
+    
+    let frameWidth:             Double = 26.0
+    let frameHeight:            Double = 26.0
 }
 
 struct SettingsBarItem: TabBarItem
@@ -20,5 +26,11 @@ struct SettingsBarItem: TabBarItem
     let name:                   String = "settings"
     
     let icon:                   String = "gear"
-    var title:                  String = "Settings"
+    let iconWeight:             Font   = Font.title.weight(.semibold)
+    
+    let title:                  String = "Settings"
+    let textWeight:             Font   = Font.title.weight(.semibold)
+    
+    let frameWidth:             Double = 26.0
+    let frameHeight:            Double = 26.0
 }

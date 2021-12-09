@@ -25,7 +25,7 @@ class TabBarControl: ObservableObject
 {
     init()
     {
-        selectedTabBarItem = HomeBarItem() // Redirect to home selection on start-up
+        self.selectedTabBarItem = HomeBarItem() // Redirect to home selection on start-up
     }
     
     @Published var selectedTabBarItem: TabBarItem

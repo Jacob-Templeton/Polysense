@@ -12,5 +12,11 @@ protocol TabBarItem
     var name:                   String      { get }
     
     var icon:                   String      { get }
+    var iconWeight:             Font        { get }
+    
     var title:                  String      { get }
+    var textWeight:             Font        { get }
+    
+    var frameWidth:             Double      { get }
+    var frameHeight:            Double      { get }
 }

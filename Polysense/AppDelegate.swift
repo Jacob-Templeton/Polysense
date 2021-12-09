@@ -7,6 +7,7 @@
 
 import UIKit
 import SwiftUI
+import Sentry
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate
@@ -18,9 +19,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool
     {
 
+        SentrySDK.start
+            { options in
+                options.dsn = "https://3eda0699f7e3442aae9c9d06cbd5c842@o1086951.ingest.sentry.io/6099608"
+                options.debug = true // Enabled debug when first installing is always helpful
+
+                // Set tracesSampleRate to 1.0 to capture 100% of transactions for performance monitoring.
+                // We recommend adjusting this value in production.
+                options.tracesSampleRate = 1.0
+            }
+        
         // Create the SwiftUI view that provides the window contents.
         let rootView = Root()
             .environmentObject(ThemeControl())
+            .environmentObject(TabBarControl())
 
         // Use a UIHostingController as window root view controller.
         let window = UIWindow(frame: UIScreen.main.bounds)

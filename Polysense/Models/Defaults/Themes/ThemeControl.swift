@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Sentry
 
 enum Themes
 {
@@ -34,7 +35,15 @@ class ThemeControl: ObservableObject
     
     init()
     {
+        // Transaction can be started by providing, at minimum, the name and the operation
+        let transaction = SentrySDK.startTransaction(name: "FirstSentryTest", operation: "db")
+        // Transactions can have child spans (and those spans can have child spans as well)
+        let span = transaction.startChild(operation: "db", description: "FirstSentryTest")
+        
         updateTheme() // Update theme on start-up
+        
+        span.finish() // Mark the span as finished
+        transaction.finish() // Mark the transaction as finished and send it to Sentry
     }
     
     @Published var selectedTheme: aTheme = ClassicLight()
