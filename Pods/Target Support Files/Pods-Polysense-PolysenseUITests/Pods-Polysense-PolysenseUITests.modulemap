@@ -1,0 +1,6 @@
+framework module Pods_Polysense_PolysenseUITests {
+  umbrella header "Pods-Polysense-PolysenseUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
