@@ -13,7 +13,13 @@ struct HomeView: View
     
     var body: some View
     {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            .foregroundColor(Color(Theme.selectedTheme.primaryForeground))
+        ZStack
+        {
+            Theme.selectedTheme.primaryBackground
+            
+            Text("Home View")
+                .foregroundColor(Theme.selectedTheme.primaryForeground)
+        }
+            .ignoresSafeArea(.all)
     }
 }

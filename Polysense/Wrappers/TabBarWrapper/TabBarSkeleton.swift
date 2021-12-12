@@ -9,19 +9,51 @@ import SwiftUI
 
 struct TabBarSkeleton: View
 {
-    @EnvironmentObject var TabBar: TabBarControl
     @EnvironmentObject var Theme: ThemeControl
-    
-    init()
-    {
-        UITabBar.appearance().isHidden = true
-    }
+    @EnvironmentObject var TabBar: TabBarControl
+    @Namespace var TabBarAnimations
     
     var body: some View
     {
-        ForEach(0..<TabBarItems.tabBarItems.count, id: \.self)
-        { tabBarItem in
-            TabBarButton(item: $TabBar.selectedTabBarItem, theme: $Theme.selectedTheme)
+        ZStack
+        {
+            ZStack
+            {
+                Rectangle()
+                    .fill(Theme.selectedTheme.neumorphicStaticFill)
+            }
+                .frame(width: UIScreen.main.bounds.width, height: 120)
+            
+            Group
+            {
+                TabBarBackground()
+                TabBarIcons()
+            }
+                .padding(16)
+                .frame(width: UIScreen.main.bounds.width, height: 90)
+        }
+            .padding(.bottom, getSafeAreaInsets().bottom == 0 ? 16 : getSafeAreaInsets().bottom)
+    }
+}
+
+#if DEBUG
+struct TabBarSkeleton_Previews : PreviewProvider
+{
+    static var previews: some View
+    {
+        ZStack
+        {
+            let Theme = ThemeControl()
+            let TabBar = TabBarControl()
+            
+            Theme.selectedTheme.primaryBackground
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .edgesIgnoringSafeArea(.all)
+            
+            TabBarSkeleton()
+                .environmentObject(Theme)
+                .environmentObject(TabBar)
         }
     }
 }
+#endif

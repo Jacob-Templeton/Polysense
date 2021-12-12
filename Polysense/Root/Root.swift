@@ -17,18 +17,26 @@ struct Root : View
         { theme in
             if(Themes.themes[theme].name == Theme.selectedTheme.name)
             {
-                HomeView()
+                ZStack
+                {
+                    Theme.selectedTheme.primaryBackground
+                        .ignoresSafeArea(.all)
+                    
+                    TabBarView()
+                }
             }
         }
     }
 }
 
 #if DEBUG
-struct ContentView_Previews : PreviewProvider
+struct Root_Previews : PreviewProvider
 {
     static var previews: some View
     {
         Root()
+            .environmentObject(TabBarControl())
+            .environmentObject(ThemeControl())
     }
 }
 #endif

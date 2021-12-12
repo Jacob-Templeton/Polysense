@@ -7,16 +7,24 @@
 
 import SwiftUI
 
-protocol TabBarItem
+protocol TabBarItemProtocol
 {
+    var id:                     Int         { get }
     var name:                   String      { get }
     
     var icon:                   String      { get }
-    var iconWeight:             Font        { get }
-    
-    var title:                  String      { get }
-    var textWeight:             Font        { get }
+    var iconFont:               Font        { get }
     
     var frameWidth:             Double      { get }
     var frameHeight:            Double      { get }
 }
+
+/*struct TabBarItemWrapper<Content> where Content: TabBarItem
+{
+    let content: Content
+    
+    init(content: () -> Content)
+    {
+        self.content = content()
+    }
+}*/

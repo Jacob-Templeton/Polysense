@@ -7,30 +7,62 @@
 
 import SwiftUI
 
-struct HomeBarItem: TabBarItem
+struct HomeBarItem: TabBarItemProtocol
 {
+    let id:                     Int    = 0
     let name:                   String = "home"
     
     let icon:                   String = "house"
-    let iconWeight:             Font   = Font.title.weight(.semibold)
+    let iconFont:               Font   = Font.title.weight(.semibold)
     
-    let title:                  String = "Home"
-    let textWeight:             Font   = Font.title.weight(.semibold)
+    let frameWidth:             Double = 26.0
+    let frameHeight:            Double = 24.0
+}
+
+struct CameraBarItem: TabBarItemProtocol
+{
+    let id:                     Int    = 1
+    let name:                   String = "camera"
+    
+    let icon:                   String = "camera"
+    let iconFont:               Font   = Font.title.weight(.semibold)
+    
+    let frameWidth:             Double = 30.0
+    let frameHeight:            Double = 24.0
+}
+
+struct EditorBarItem: TabBarItemProtocol
+{
+    let id:                     Int    = 2
+    let name:                   String = "editor"
+    
+    let icon:                   String = "pencil.circle"
+    let iconFont:               Font   = Font.title.weight(.semibold)
     
     let frameWidth:             Double = 26.0
     let frameHeight:            Double = 26.0
 }
 
-struct SettingsBarItem: TabBarItem
+struct SearchBarItem: TabBarItemProtocol
 {
-    let name:                   String = "settings"
+    let id:                     Int    = 3
+    let name:                   String = "search"
     
-    let icon:                   String = "gear"
-    let iconWeight:             Font   = Font.title.weight(.semibold)
-    
-    let title:                  String = "Settings"
-    let textWeight:             Font   = Font.title.weight(.semibold)
+    let icon:                   String = "magnifyingglass.circle"
+    let iconFont:               Font   = Font.title.weight(.semibold)
     
     let frameWidth:             Double = 26.0
     let frameHeight:            Double = 26.0
+}
+
+struct SettingsBarItem: TabBarItemProtocol
+{
+    let id:                     Int    = 4
+    let name:                   String = "settings"
+    
+    let icon:                   String = "gearshape"
+    let iconFont:               Font   = Font.title.weight(.semibold)
+    
+    let frameWidth:             Double = 24.0
+    let frameHeight:            Double = 24.0
 }
