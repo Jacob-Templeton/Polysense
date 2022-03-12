@@ -32,7 +32,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate
         // Create the SwiftUI view that provides the window contents.
         let rootView = Root()
             .environmentObject(ThemeControl())
-            .environmentObject(TabBarControl())
 
         // Use a UIHostingController as window root view controller.
         let window = UIWindow(frame: UIScreen.main.bounds)

@@ -26,6 +26,8 @@ extension View
 {
     public func getSafeAreaInsets() -> UIEdgeInsets
     {
-        return UIApplication.shared.connectedScenes.filter({ $0.activationState == .foregroundActive }).first(where: { $0 is UIWindowScene }).flatMap({ $0 as? UIWindowScene })?.windows.first(where: \.isKeyWindow)?.safeAreaInsets ?? UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+        guard let screen = UIApplication.shared.connectedScenes.first as? UIWindowScene else { return .zero }
+        guard let safeArea = screen.windows.first?.safeAreaInsets else { return .zero }
+        return safeArea
     }
 }

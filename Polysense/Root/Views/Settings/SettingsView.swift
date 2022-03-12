@@ -15,11 +15,11 @@ struct SettingsView: View
     {
         ZStack
         {
-            Theme.selectedTheme.primaryBackground
+            Theme.selectedTheme.primary
             
             Text("Settings View")
-                .foregroundColor(Theme.selectedTheme.primaryForeground)
+                .foregroundColor(Theme.selectedTheme.tertiary)
         }
-            .ignoresSafeArea(.all)
+        .edgesIgnoringSafeArea(.all)
     }
 }

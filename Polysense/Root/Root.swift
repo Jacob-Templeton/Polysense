@@ -11,20 +11,23 @@ struct Root : View
 {
     @EnvironmentObject var Theme: ThemeControl
     
+    init()
+    {
+        UITabBar.appearance().isHidden = true
+        UINavigationBar.appearance().isHidden = true
+    }
+    
     var body: some View
     {
-        ForEach(0..<Themes.themes.count, id: \.self)
-        { theme in
-            if(Themes.themes[theme].name == Theme.selectedTheme.name)
-            {
-                ZStack
-                {
-                    Theme.selectedTheme.primaryBackground
-                        .ignoresSafeArea(.all)
-                    
-                    TabBarView()
-                }
-            }
+        ZStack
+        {
+            Theme.selectedTheme.primary
+        }
+        .keyboardAdaptive()
+        .onTapGesture
+        {
+            // Hide any keyboard instances in any view
+            hideKeyboard()
         }
     }
 }
@@ -35,7 +38,6 @@ struct Root_Previews : PreviewProvider
     static var previews: some View
     {
         Root()
-            .environmentObject(TabBarControl())
             .environmentObject(ThemeControl())
     }
 }

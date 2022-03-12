@@ -10,24 +10,27 @@ import SwiftUI
 struct EditorView: View
 {
     @EnvironmentObject var Theme: ThemeControl
+    
     @State private var text: String = ""
     
     var body: some View
     {
         ZStack
         {
-            Theme.selectedTheme.primaryBackground
+            Theme.selectedTheme.primary
             
             VStack
             {
                 TextField("Editor View", text: $text)
                 
                 Text("\(text)")
-                    .foregroundColor(Theme.selectedTheme.primaryForeground)
+                    .foregroundColor(Theme.selectedTheme.tertiary)
                 
                 Spacer()
+                
             }
+                .padding(.top, 120)
+                .padding(20)
         }
-            .ignoresSafeArea(.all)
     }
 }

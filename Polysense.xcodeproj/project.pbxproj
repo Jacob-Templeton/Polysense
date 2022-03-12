@@ -16,36 +16,26 @@
 		5C02AF27275F3268001808E3 /* PolysenseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02AF26275F3268001808E3 /* PolysenseUITests.swift */; };
 		5C02AF29275F3268001808E3 /* PolysenseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02AF28275F3268001808E3 /* PolysenseUITestsLaunchTests.swift */; };
 		5C02AF37275F343E001808E3 /* UserMedia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C02AF35275F343E001808E3 /* UserMedia.xcdatamodeld */; };
-		5C1B4BE52763720000D63F1A /* TabBarComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1B4BE42763720000D63F1A /* TabBarComponents.swift */; };
+		5C09CBB4276754C200B74392 /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C09CBB3276754C200B74392 /* DataStructures.swift */; };
 		5C1B4BE727638B1F00D63F1A /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1B4BE627638B1F00D63F1A /* View.swift */; };
 		5C1B4BE92763B6AA00D63F1A /* TemplateUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1B4BE82763B6AA00D63F1A /* TemplateUsers.swift */; };
-		5C1B4BEB2763C48F00D63F1A /* TabBarWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1B4BEA2763C48F00D63F1A /* TabBarWrapper.swift */; };
 		5C1B4BED2763D53600D63F1A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1B4BEC2763D53600D63F1A /* SearchView.swift */; };
 		5C1B4BF12763D56400D63F1A /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1B4BF02763D56400D63F1A /* EditorView.swift */; };
 		5C1B4BF32763D57100D63F1A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1B4BF22763D57100D63F1A /* SettingsView.swift */; };
 		5C33C1D12760609600266CE0 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C33C1D02760609600266CE0 /* LaunchScreen.swift */; };
-		5C38A057276467D800FFA89D /* TabBarPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38A056276467D800FFA89D /* TabBarPreferenceKey.swift */; };
-		5C38A05927647FAB00FFA89D /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38A05827647FAA00FFA89D /* TabBarView.swift */; };
 		5C38A05C2764899B00FFA89D /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38A05B2764899B00FFA89D /* Shape.swift */; };
 		5C38A05E27648D1F00FFA89D /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38A05D27648D1F00FFA89D /* UI.swift */; };
+		5C7968C227689B9300FFE364 /* GenericView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7968C127689B9200FFE364 /* GenericView.swift */; };
 		5CBB2D182760D0DE00FBF46A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB2D172760D0DE00FBF46A /* LoginView.swift */; };
 		5CCA2BA327608EB500BE6017 /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA2BA227608EB500BE6017 /* ARView.swift */; };
 		5CCA2BA527608EC000BE6017 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA2BA427608EC000BE6017 /* CameraView.swift */; };
 		5CCA2BAE2760989E00BE6017 /* ThemeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA2BAD2760989E00BE6017 /* ThemeControl.swift */; };
 		5CCA2BB02760995700BE6017 /* ThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA2BAF2760995700BE6017 /* ThemeProtocol.swift */; };
-		5CCA2BB227609D8700BE6017 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA2BB127609D8700BE6017 /* HomeView.swift */; };
 		5CCA2BB42760A0CA00BE6017 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA2BB32760A0CA00BE6017 /* Settings.swift */; };
-		5CD86737275F9D6B00C86911 /* NavigationSkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD86736275F9D6B00C86911 /* NavigationSkeleton.swift */; };
-		5CD8673D275FA0D800C86911 /* TabBarSkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD8673C275FA0D800C86911 /* TabBarSkeleton.swift */; };
 		5CD86744275FA16400C86911 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD86743275FA16400C86911 /* Themes.swift */; };
 		5CD86753275FB56F00C86911 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD86752275FB56F00C86911 /* UIColor.swift */; };
-		5CE46E7D2760DFCE002927F4 /* TabBarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE46E7C2760DFCE002927F4 /* TabBarProtocols.swift */; };
-		5CE46E7F2760DFEC002927F4 /* TabBarItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE46E7E2760DFEC002927F4 /* TabBarItems.swift */; };
-		5CE46E812760E007002927F4 /* TabBarControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE46E802760E007002927F4 /* TabBarControl.swift */; };
-		5CE46E8327611113002927F4 /* NavigationProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE46E8227611113002927F4 /* NavigationProtocols.swift */; };
-		5CE46E8527611123002927F4 /* NavigationControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE46E8427611123002927F4 /* NavigationControl.swift */; };
-		5CE46E8727611168002927F4 /* NavigationItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE46E8627611168002927F4 /* NavigationItems.swift */; };
-		5CE46E8927611B2C002927F4 /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE46E8827611B2C002927F4 /* TabBarButton.swift */; };
+		5CF5F7752766371B00218753 /* FrameAdjustments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF5F7742766371A00218753 /* FrameAdjustments.swift */; };
+		5CFC8C9D27DCB11300A69183 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFC8C9C27DCB11300A69183 /* HomeView.swift */; };
 		70FDA4C35BC517B80772E80E /* Pods_Polysense.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D652374B2CEBF8EFF1B69E2 /* Pods_Polysense.framework */; };
 		870F3B69C97B32711E1C009F /* Pods_Polysense_PolysenseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CB40DD6A7EC17A92FB15313 /* Pods_Polysense_PolysenseUITests.framework */; };
 		C1F1596BAA987C3F2377A25D /* Pods_PolysenseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E0CF37D6DF543D54885BA0 /* Pods_PolysenseTests.framework */; };
@@ -81,39 +71,29 @@
 		5C02AF26275F3268001808E3 /* PolysenseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolysenseUITests.swift; sourceTree = "<group>"; };
 		5C02AF28275F3268001808E3 /* PolysenseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolysenseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5C02AF36275F343E001808E3 /* UserMedia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserMedia.xcdatamodel; sourceTree = "<group>"; };
-		5C1B4BE42763720000D63F1A /* TabBarComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarComponents.swift; sourceTree = "<group>"; };
+		5C09CBB3276754C200B74392 /* DataStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructures.swift; sourceTree = "<group>"; };
 		5C1B4BE627638B1F00D63F1A /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		5C1B4BE82763B6AA00D63F1A /* TemplateUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateUsers.swift; sourceTree = "<group>"; };
-		5C1B4BEA2763C48F00D63F1A /* TabBarWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarWrapper.swift; sourceTree = "<group>"; };
 		5C1B4BEC2763D53600D63F1A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		5C1B4BF02763D56400D63F1A /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
 		5C1B4BF22763D57100D63F1A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		5C33C1D02760609600266CE0 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
-		5C38A056276467D800FFA89D /* TabBarPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPreferenceKey.swift; sourceTree = "<group>"; };
-		5C38A05827647FAA00FFA89D /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		5C38A05B2764899B00FFA89D /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		5C38A05D27648D1F00FFA89D /* UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
+		5C7968C127689B9200FFE364 /* GenericView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericView.swift; sourceTree = "<group>"; };
 		5CBB2D172760D0DE00FBF46A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		5CCA2BA227608EB500BE6017 /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
 		5CCA2BA427608EC000BE6017 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		5CCA2BAD2760989E00BE6017 /* ThemeControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeControl.swift; sourceTree = "<group>"; };
 		5CCA2BAF2760995700BE6017 /* ThemeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeProtocol.swift; sourceTree = "<group>"; };
-		5CCA2BB127609D8700BE6017 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		5CCA2BB32760A0CA00BE6017 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
-		5CD86736275F9D6B00C86911 /* NavigationSkeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationSkeleton.swift; sourceTree = "<group>"; };
-		5CD8673C275FA0D800C86911 /* TabBarSkeleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarSkeleton.swift; sourceTree = "<group>"; };
 		5CD86743275FA16400C86911 /* Themes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Themes.swift; sourceTree = "<group>"; };
 		5CD86752275FB56F00C86911 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		5CDEE71127631EDE00A75705 /* Polysense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polysense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CDEE71227631EDE00A75705 /* PolysenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolysenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CDEE71327631EDE00A75705 /* PolysenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolysenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CE46E7C2760DFCE002927F4 /* TabBarProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarProtocols.swift; sourceTree = "<group>"; };
-		5CE46E7E2760DFEC002927F4 /* TabBarItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItems.swift; sourceTree = "<group>"; };
-		5CE46E802760E007002927F4 /* TabBarControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarControl.swift; sourceTree = "<group>"; };
-		5CE46E8227611113002927F4 /* NavigationProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationProtocols.swift; sourceTree = "<group>"; };
-		5CE46E8427611123002927F4 /* NavigationControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControl.swift; sourceTree = "<group>"; };
-		5CE46E8627611168002927F4 /* NavigationItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationItems.swift; sourceTree = "<group>"; };
-		5CE46E8827611B2C002927F4 /* TabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
+		5CF5F7742766371A00218753 /* FrameAdjustments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAdjustments.swift; sourceTree = "<group>"; };
+		5CFC8C9C27DCB11300A69183 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		743FB3B038A8665A9822C88A /* Pods-PolysenseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PolysenseTests.debug.xcconfig"; path = "Target Support Files/Pods-PolysenseTests/Pods-PolysenseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		85E0BAEF20BF71268C3E973F /* Pods-Polysense-PolysenseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polysense-PolysenseUITests.release.xcconfig"; path = "Target Support Files/Pods-Polysense-PolysenseUITests/Pods-Polysense-PolysenseUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9577A111E5BCA179B8136E45 /* Pods-Polysense.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Polysense.debug.xcconfig"; path = "Target Support Files/Pods-Polysense/Pods-Polysense.debug.xcconfig"; sourceTree = "<group>"; };
@@ -235,23 +215,6 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		5C38A05A27647FB300FFA89D /* TabBar */ = {
-			isa = PBXGroup;
-			children = (
-				5C38A05827647FAA00FFA89D /* TabBarView.swift */,
-			);
-			path = TabBar;
-			sourceTree = "<group>";
-		};
-		5C9CCB0D2765E68900BC3746 /* Deprecated */ = {
-			isa = PBXGroup;
-			children = (
-				5C1B4BEA2763C48F00D63F1A /* TabBarWrapper.swift */,
-				5C38A056276467D800FFA89D /* TabBarPreferenceKey.swift */,
-			);
-			path = Deprecated;
-			sourceTree = "<group>";
-		};
 		5CBB2D1A2760D22300FBF46A /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -279,7 +242,7 @@
 		5CCA2BA82760930800BE6017 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				5CCA2BB127609D8700BE6017 /* HomeView.swift */,
+				5CFC8C9C27DCB11300A69183 /* HomeView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -318,36 +281,9 @@
 			path = Themes;
 			sourceTree = "<group>";
 		};
-		5CD86738275FA07400C86911 /* TabBarWrapper */ = {
-			isa = PBXGroup;
-			children = (
-				5CD8673C275FA0D800C86911 /* TabBarSkeleton.swift */,
-				5C1B4BE42763720000D63F1A /* TabBarComponents.swift */,
-				5CE46E8827611B2C002927F4 /* TabBarButton.swift */,
-				5CE46E802760E007002927F4 /* TabBarControl.swift */,
-				5CE46E7E2760DFEC002927F4 /* TabBarItems.swift */,
-				5CE46E7C2760DFCE002927F4 /* TabBarProtocols.swift */,
-				5C9CCB0D2765E68900BC3746 /* Deprecated */,
-			);
-			path = TabBarWrapper;
-			sourceTree = "<group>";
-		};
-		5CD8673A275FA08500C86911 /* NavigationWrapper */ = {
-			isa = PBXGroup;
-			children = (
-				5CD86736275F9D6B00C86911 /* NavigationSkeleton.swift */,
-				5CE46E8427611123002927F4 /* NavigationControl.swift */,
-				5CE46E8627611168002927F4 /* NavigationItems.swift */,
-				5CE46E8227611113002927F4 /* NavigationProtocols.swift */,
-			);
-			path = NavigationWrapper;
-			sourceTree = "<group>";
-		};
 		5CD8673B275FA09F00C86911 /* Wrappers */ = {
 			isa = PBXGroup;
 			children = (
-				5CD8673A275FA08500C86911 /* NavigationWrapper */,
-				5CD86738275FA07400C86911 /* TabBarWrapper */,
 			);
 			path = Wrappers;
 			sourceTree = "<group>";
@@ -383,6 +319,8 @@
 				5C1B4BE627638B1F00D63F1A /* View.swift */,
 				5C38A05B2764899B00FFA89D /* Shape.swift */,
 				5C38A05D27648D1F00FFA89D /* UI.swift */,
+				5CF5F7742766371A00218753 /* FrameAdjustments.swift */,
+				5C09CBB3276754C200B74392 /* DataStructures.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -423,8 +361,9 @@
 		5CD86748275FA5F700C86911 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5C7968C127689B9200FFE364 /* GenericView.swift */,
 				5CBB2D1A2760D22300FBF46A /* Login */,
-				5C38A05A27647FB300FFA89D /* TabBar */,
+				5CF5F7712766048400218753 /* Menus */,
 				5CCA2BA82760930800BE6017 /* Home */,
 				5CCA2BA7276092FF00BE6017 /* Camera */,
 				5C1B4BEF2763D55500D63F1A /* Editor */,
@@ -502,6 +441,13 @@
 			children = (
 			);
 			path = ViewComponents;
+			sourceTree = "<group>";
+		};
+		5CF5F7712766048400218753 /* Menus */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Menus;
 			sourceTree = "<group>";
 		};
 		969E2847D8FA2F5E789B2A25 /* Pods */ = {
@@ -785,38 +731,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CD86744275FA16400C86911 /* Themes.swift in Sources */,
-				5CE46E8327611113002927F4 /* NavigationProtocols.swift in Sources */,
-				5C38A057276467D800FFA89D /* TabBarPreferenceKey.swift in Sources */,
-				5CE46E8927611B2C002927F4 /* TabBarButton.swift in Sources */,
 				5C02AF0C275F3266001808E3 /* Root.swift in Sources */,
 				5C33C1D12760609600266CE0 /* LaunchScreen.swift in Sources */,
+				5CFC8C9D27DCB11300A69183 /* HomeView.swift in Sources */,
 				5C02AF37275F343E001808E3 /* UserMedia.xcdatamodeld in Sources */,
-				5CCA2BB227609D8700BE6017 /* HomeView.swift in Sources */,
 				5CCA2BAE2760989E00BE6017 /* ThemeControl.swift in Sources */,
 				5C1B4BE92763B6AA00D63F1A /* TemplateUsers.swift in Sources */,
-				5CD86737275F9D6B00C86911 /* NavigationSkeleton.swift in Sources */,
 				5CCA2BA327608EB500BE6017 /* ARView.swift in Sources */,
-				5C1B4BE52763720000D63F1A /* TabBarComponents.swift in Sources */,
-				5CE46E7F2760DFEC002927F4 /* TabBarItems.swift in Sources */,
 				5C02AF0A275F3266001808E3 /* AppDelegate.swift in Sources */,
 				5CCA2BB42760A0CA00BE6017 /* Settings.swift in Sources */,
 				5C1B4BF12763D56400D63F1A /* EditorView.swift in Sources */,
 				5CCA2BA527608EC000BE6017 /* CameraView.swift in Sources */,
-				5C38A05927647FAB00FFA89D /* TabBarView.swift in Sources */,
 				5CD86753275FB56F00C86911 /* UIColor.swift in Sources */,
 				5C1B4BF32763D57100D63F1A /* SettingsView.swift in Sources */,
-				5CD8673D275FA0D800C86911 /* TabBarSkeleton.swift in Sources */,
-				5CE46E7D2760DFCE002927F4 /* TabBarProtocols.swift in Sources */,
 				5C38A05E27648D1F00FFA89D /* UI.swift in Sources */,
 				5C02AF0E275F3266001808E3 /* Experience.rcproject in Sources */,
-				5CE46E8527611123002927F4 /* NavigationControl.swift in Sources */,
+				5C7968C227689B9300FFE364 /* GenericView.swift in Sources */,
 				5CBB2D182760D0DE00FBF46A /* LoginView.swift in Sources */,
-				5C1B4BEB2763C48F00D63F1A /* TabBarWrapper.swift in Sources */,
-				5CE46E812760E007002927F4 /* TabBarControl.swift in Sources */,
+				5CF5F7752766371B00218753 /* FrameAdjustments.swift in Sources */,
 				5C38A05C2764899B00FFA89D /* Shape.swift in Sources */,
+				5C09CBB4276754C200B74392 /* DataStructures.swift in Sources */,
 				5C1B4BED2763D53600D63F1A /* SearchView.swift in Sources */,
 				5C1B4BE727638B1F00D63F1A /* View.swift in Sources */,
-				5CE46E8727611168002927F4 /* NavigationItems.swift in Sources */,
 				5CCA2BB02760995700BE6017 /* ThemeProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

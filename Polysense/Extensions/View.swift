@@ -47,3 +47,34 @@ extension View
         UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
     }
 }
+
+extension View
+{
+    // MARK: - Vertical Placement
+    func vCenter() -> some View {
+        self
+            .frame(maxHeight: .infinity, alignment: .center)
+    }
+    func vTop() -> some View {
+        self
+            .frame(maxHeight: .infinity, alignment: .top)
+    }
+    func vBottom() -> some View {
+        self
+            .frame(maxHeight: .infinity, alignment: .bottom)
+    }
+    
+    // MARK: - Horizontal Placement
+    func hCenter() -> some View {
+        self
+            .frame(maxWidth: .infinity, alignment: .center)
+    }
+    func hLeading() -> some View {
+        self
+            .frame(maxWidth: .infinity, alignment: .leading)
+    }
+    func hTrailing() -> some View {
+        self
+            .frame(maxWidth: .infinity, alignment: .trailing)
+    }
+}

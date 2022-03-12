@@ -15,11 +15,12 @@ struct SearchView: View
     {
         ZStack
         {
-            Theme.selectedTheme.primaryBackground
+            Theme.selectedTheme.primary
             
             Text("Search View")
-                .foregroundColor(Theme.selectedTheme.primaryForeground)
+                .foregroundColor(Theme.selectedTheme.tertiary)
+            
         }
-            .ignoresSafeArea(.all)
+        .edgesIgnoringSafeArea(.all)
     }
 }

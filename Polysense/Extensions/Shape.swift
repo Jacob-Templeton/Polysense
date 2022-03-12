@@ -16,3 +16,37 @@ struct ButtonHatIndicator: Shape
         return Path(path.cgPath)
     }
 }
+
+struct UniformWaveUp: Shape
+{
+    func path(in rect: CGRect) -> Path
+    {
+        var path = Path()
+        path.move(to: .zero)
+        path.addLine(to: CGPoint(x: rect.minX, y: rect.maxY))
+        path.addLine(to: CGPoint(x: rect.maxX, y: rect.maxY))
+        path.addLine(to: CGPoint(x: rect.maxX, y: rect.minY))
+        path.addCurve(to: CGPoint(x: rect.minX, y: rect.minY),
+                      control1: CGPoint(x: rect.maxX * 0.65, y: rect.minY - 60),
+                      control2: CGPoint(x: rect.maxX * 0.25, y: rect.minY + 40))
+        
+        return path
+    }
+}
+
+struct UniformWaveDown: Shape
+{
+    func path(in rect: CGRect) -> Path
+    {
+        var path = Path()
+        path.move(to: .zero)
+        path.addLine(to: CGPoint(x: rect.maxX, y: rect.minY))
+        path.addLine(to: CGPoint(x: rect.maxX, y: rect.maxY))
+        path.addCurve(to: CGPoint(x: rect.minX, y: rect.maxY),
+                      control1: CGPoint(x: rect.maxX * 0.65, y: rect.maxY - 60),
+                      control2: CGPoint(x: rect.maxX * 0.25, y: rect.maxY + 40))
+        path.addLine(to: CGPoint(x: rect.minX, y: rect.minY))
+        
+        return path
+    }
+}

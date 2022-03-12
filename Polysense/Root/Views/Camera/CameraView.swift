@@ -15,11 +15,11 @@ struct CameraView: View
     {
         ZStack
         {
-            Theme.selectedTheme.primaryBackground
+            Theme.selectedTheme.primary
             
             Text("Camera View")
-                .foregroundColor(Theme.selectedTheme.primaryForeground)
+                .foregroundColor(Theme.selectedTheme.tertiary)
         }
-            .ignoresSafeArea(.all)
+        .edgesIgnoringSafeArea(.all)
     }
 }
