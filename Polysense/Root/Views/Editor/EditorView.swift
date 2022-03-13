@@ -17,14 +17,14 @@ struct EditorView: View
     {
         ZStack
         {
-            Theme.selectedTheme.primary
+            Theme.selectedTheme.bg2
             
             VStack
             {
                 TextField("Editor View", text: $text)
                 
                 Text("\(text)")
-                    .foregroundColor(Theme.selectedTheme.tertiary)
+                    .foregroundColor(Theme.selectedTheme.fg1)
                 
                 Spacer()
                 

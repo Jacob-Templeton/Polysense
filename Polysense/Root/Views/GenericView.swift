@@ -22,7 +22,7 @@ struct GenericViewWrapper<Content>: View where Content: View
     {
         ZStack
         {
-            Theme.selectedTheme.tertiary
+            Theme.selectedTheme.fg1
                 .edgesIgnoringSafeArea(.all)
             
             self.content

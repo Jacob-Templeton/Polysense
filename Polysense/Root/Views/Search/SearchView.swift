@@ -15,10 +15,10 @@ struct SearchView: View
     {
         ZStack
         {
-            Theme.selectedTheme.primary
+            Theme.selectedTheme.bg2
             
             Text("Search View")
-                .foregroundColor(Theme.selectedTheme.tertiary)
+                .foregroundColor(Theme.selectedTheme.fg1)
             
         }
         .edgesIgnoringSafeArea(.all)

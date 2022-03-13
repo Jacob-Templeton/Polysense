@@ -6,6 +6,9 @@
 //
 
 import SwiftUI
+import UIKit
+import CoreGraphics
+
 
 struct Root : View
 {
@@ -17,11 +20,14 @@ struct Root : View
         UINavigationBar.appearance().isHidden = true
     }
     
+    let wmult = UIScreen.main.bounds.width / 320  // Width-based Auto Layout
+    
     var body: some View
     {
+        let theme = Theme.selectedTheme
         ZStack
         {
-            Theme.selectedTheme.primary
+            
         }
         .keyboardAdaptive()
         .onTapGesture
@@ -29,6 +35,8 @@ struct Root : View
             // Hide any keyboard instances in any view
             hideKeyboard()
         }
+        .edgesIgnoringSafeArea(.all)
+        .background(theme.bg1)
     }
 }
 

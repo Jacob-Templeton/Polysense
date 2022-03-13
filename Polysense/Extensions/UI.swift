@@ -22,6 +22,30 @@ struct BlurView: UIViewRepresentable
     }
 }
 
+struct BorderedGlass: View
+{
+    @EnvironmentObject var Theme: ThemeControl
+    
+    var width: Double
+    var height: Double
+    var radius: Double
+    var corners: UIRectCorner = [.topRight, .bottomRight]
+    
+    var body: some View
+    {
+        ZStack {
+            RoundedRect(radius: radius, corners: corners)
+                .fill(Theme.selectedTheme.glass.opacity(0.2))
+
+            RoundedRect(radius: radius, corners: corners)
+            .strokeBorder(Theme.selectedTheme.tint1)
+            .shadow(color: Theme.selectedTheme.tint1.opacity(0.5), radius: 8, x: 0, y: 0)
+        }
+        .compositingGroup()
+        .frame(width: width, height: height)
+    }
+}
+
 extension View
 {
     public func getSafeAreaInsets() -> UIEdgeInsets
@@ -31,3 +55,4 @@ extension View
         return safeArea
     }
 }
+

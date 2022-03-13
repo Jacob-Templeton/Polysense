@@ -26,6 +26,8 @@
 		5C38A05C2764899B00FFA89D /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38A05B2764899B00FFA89D /* Shape.swift */; };
 		5C38A05E27648D1F00FFA89D /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38A05D27648D1F00FFA89D /* UI.swift */; };
 		5C7968C227689B9300FFE364 /* GenericView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7968C127689B9200FFE364 /* GenericView.swift */; };
+		5C7D8C7827DE19A000AE3891 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7D8C7727DE19A000AE3891 /* SignUpView.swift */; };
+		5C7D8C7A27DE1A1400AE3891 /* AuthRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7D8C7927DE1A1400AE3891 /* AuthRoot.swift */; };
 		5CBB2D182760D0DE00FBF46A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBB2D172760D0DE00FBF46A /* LoginView.swift */; };
 		5CCA2BA327608EB500BE6017 /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA2BA227608EB500BE6017 /* ARView.swift */; };
 		5CCA2BA527608EC000BE6017 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA2BA427608EC000BE6017 /* CameraView.swift */; };
@@ -81,6 +83,8 @@
 		5C38A05B2764899B00FFA89D /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		5C38A05D27648D1F00FFA89D /* UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
 		5C7968C127689B9200FFE364 /* GenericView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericView.swift; sourceTree = "<group>"; };
+		5C7D8C7727DE19A000AE3891 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		5C7D8C7927DE1A1400AE3891 /* AuthRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthRoot.swift; sourceTree = "<group>"; };
 		5CBB2D172760D0DE00FBF46A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		5CCA2BA227608EB500BE6017 /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
 		5CCA2BA427608EC000BE6017 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
@@ -215,12 +219,14 @@
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		5CBB2D1A2760D22300FBF46A /* Login */ = {
+		5CBB2D1A2760D22300FBF46A /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				5C7D8C7927DE1A1400AE3891 /* AuthRoot.swift */,
 				5CBB2D172760D0DE00FBF46A /* LoginView.swift */,
+				5C7D8C7727DE19A000AE3891 /* SignUpView.swift */,
 			);
-			path = Login;
+			path = Auth;
 			sourceTree = "<group>";
 		};
 		5CCA2BA6276092F300BE6017 /* ModelPreviews */ = {
@@ -362,7 +368,7 @@
 			isa = PBXGroup;
 			children = (
 				5C7968C127689B9200FFE364 /* GenericView.swift */,
-				5CBB2D1A2760D22300FBF46A /* Login */,
+				5CBB2D1A2760D22300FBF46A /* Auth */,
 				5CF5F7712766048400218753 /* Menus */,
 				5CCA2BA82760930800BE6017 /* Home */,
 				5CCA2BA7276092FF00BE6017 /* Camera */,
@@ -745,7 +751,9 @@
 				5CD86753275FB56F00C86911 /* UIColor.swift in Sources */,
 				5C1B4BF32763D57100D63F1A /* SettingsView.swift in Sources */,
 				5C38A05E27648D1F00FFA89D /* UI.swift in Sources */,
+				5C7D8C7A27DE1A1400AE3891 /* AuthRoot.swift in Sources */,
 				5C02AF0E275F3266001808E3 /* Experience.rcproject in Sources */,
+				5C7D8C7827DE19A000AE3891 /* SignUpView.swift in Sources */,
 				5C7968C227689B9300FFE364 /* GenericView.swift in Sources */,
 				5CBB2D182760D0DE00FBF46A /* LoginView.swift in Sources */,
 				5CF5F7752766371B00218753 /* FrameAdjustments.swift in Sources */,

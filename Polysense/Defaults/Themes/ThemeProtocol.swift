@@ -14,8 +14,12 @@ protocol aTheme
 {
     var name:                       String          { get }
     
-    var primary:                    Color           { get }
-    var secondary:                  Color           { get }
-    var tertiary:                   Color           { get }
-    var accent:                     Color           { get }
+    var bg1:                        Color           { get }
+    var bg2:                        Color           { get }
+    var fg1:                        Color           { get }
+    var fg2:                        Color           { get }
+    var tint1:                      Color           { get }
+    var tint2:                      Color           { get }
+    var tint3:                      Color           { get }
+    var glass:                      Color           { get }
 }

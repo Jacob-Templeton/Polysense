@@ -38,7 +38,7 @@ class ThemeControl: ObservableObject
         updateTheme() // Update theme on start-up
     }
     
-    @Published var selectedTheme: aTheme = ClassicLight()
+    @Published var selectedTheme: aTheme = ClassicDark()
     
     func updateTheme()
     {
